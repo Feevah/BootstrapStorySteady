@@ -1,0 +1,80 @@
+body {background-color: rgba(115, 2, 2, 0.85);
+	  background-position: center;
+      background-repeat: no-repeat;
+  	  background-size: cover;
+  	  color: #FFF5A5 ;
+}
+
+
+
+header {
+width: 1020px;
+height: 192px;
+left: 415px;
+top: 44px;
+text-orientation: center;
+background: rgba(115, 2, 2, 0.85);
+border-radius: 83px;
+}
+
+.box1 {
+margin-left: 20px;
+margin-right: 20px;
+float: left;
+width: 598px;
+height: 1072px;
+left: 16px;
+top: 24px;
+
+background: white;
+border-radius: 83px;
+    
+}
+
+.center {
+	 text-align-last: center;
+	margin-left: auto;
+    margin-right: auto;
+    /*width: 70em;*/
+}
+
+.box2 {
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 15em;
+float: right;
+width: 500px;
+height: 590px;
+left: 840px;
+top: 506px;
+
+background: rgba(95, 78, 66, 0.93);
+border-radius: 83px;
+}
+.title {font-size: 50px;
+	color: #FFF5A5;}
+
+
+/*ul {color: white;}*/
+
+/*div {font-size: 30px;}*/
+
+/*#name {color: grey;}*/
+
+.space {
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+nav {
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+ input {
+ 	width: 80%;
+  padding: 22px 30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+} 
