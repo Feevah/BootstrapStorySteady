@@ -18,7 +18,9 @@ app.get('/add', (req, res) => {
    
       console.log(newStory)
        db.insertCaughtData(newStory)
-
+       	.then(result => {res.send(result)})
+       	.catch(error => res.send("We broke"));
+       // res.end()
    
 })
 
@@ -27,7 +29,9 @@ app.get('/add', (req, res) => {
 
 
 app.get('/storiesPast', (req, res) => {
-  db.getCaughtData().then(result => {res.send(result)});    
+  db.getCaughtData()
+  .then(result => {res.send(result)})
+  .catch(error => res.send("we broke at part 2"));    
 })
 
 
