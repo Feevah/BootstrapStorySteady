@@ -30,7 +30,13 @@ app.get('/add', (req, res) => {
 
 app.get('/storiesPast', (req, res) => {
   db.getCaughtData()
-  .then(result => {res.send(result)})
+  .then(result => {
+    var newArr = [];
+    result.forEach(function(obj) {
+      newArr.push(obj.posts);
+    })
+
+    res.send(newArr)})
   .catch(error => res.send("we broke at part 2"));    
 })
 
